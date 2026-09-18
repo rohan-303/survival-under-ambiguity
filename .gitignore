@@ -8,6 +8,8 @@ htmlcov/
 *.egg-info/
 results/*
 !results/.gitkeep
+!results/step02/
+!results/step02/*.json
 manifests/*.json
 .env
 .vscode/

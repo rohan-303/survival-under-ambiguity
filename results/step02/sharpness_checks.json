@@ -1,0 +1,202 @@
+{
+  "evidence_level": "CHECKED: deterministic finite verification, not a proof",
+  "one_bin_checks": [
+    {
+      "g": 0.2,
+      "p": 0.1,
+      "p_prime": 0.7,
+      "tv": 0.12
+    },
+    {
+      "g": 0.2,
+      "p": 0.2,
+      "p_prime": 0.8,
+      "tv": 0.12000000000000002
+    },
+    {
+      "g": 0.5,
+      "p": 0.1,
+      "p_prime": 0.7,
+      "tv": 0.3
+    },
+    {
+      "g": 0.5,
+      "p": 0.2,
+      "p_prime": 0.8,
+      "tv": 0.30000000000000004
+    },
+    {
+      "g": 1.0,
+      "p": 0.1,
+      "p_prime": 0.7,
+      "tv": 0.6
+    },
+    {
+      "g": 1.0,
+      "p": 0.2,
+      "p_prime": 0.8,
+      "tv": 0.6000000000000001
+    }
+  ],
+  "one_bin_pairwise_formula": [
+    {
+      "epsilon": 0.0,
+      "g": 0.5,
+      "analytic_width": 0.0,
+      "lp_width": null
+    },
+    {
+      "epsilon": 0.05,
+      "g": 0.5,
+      "analytic_width": 0.10526315789473685,
+      "lp_width": null
+    },
+    {
+      "epsilon": 0.2,
+      "g": 0.5,
+      "analytic_width": 0.5,
+      "lp_width": null
+    },
+    {
+      "epsilon": 0.4,
+      "g": 0.5,
+      "analytic_width": 1.0,
+      "lp_width": null
+    }
+  ],
+  "multi_bin": {
+    "matrix": [
+      [
+        0.85,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.6,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.25,
+        0.0
+      ],
+      [
+        0.15,
+        0.15,
+        0.15,
+        0.15
+      ],
+      [
+        0.0,
+        0.25,
+        0.25,
+        0.25
+      ],
+      [
+        0.0,
+        0.0,
+        0.35,
+        0.35
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.25
+      ]
+    ],
+    "q": [
+      0.15,
+      0.25,
+      0.35,
+      0.25
+    ],
+    "event_times": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "fixed_R": [
+      {
+        "epsilon": 0.0,
+        "functional": "survival_at_last",
+        "lower": 0.55,
+        "upper": 0.55,
+        "width": 0.0
+      },
+      {
+        "epsilon": 0.0,
+        "functional": "rmst",
+        "lower": 2.35,
+        "upper": 2.35,
+        "width": 0.0
+      },
+      {
+        "epsilon": 0.05,
+        "functional": "survival_at_last",
+        "lower": 0.5263157894736843,
+        "upper": 0.5789473684210527,
+        "width": 0.05263157894736836
+      },
+      {
+        "epsilon": 0.05,
+        "functional": "rmst",
+        "lower": 2.3157894736842106,
+        "upper": 2.421052631578948,
+        "width": 0.10526315789473717
+      },
+      {
+        "epsilon": 0.2,
+        "functional": "survival_at_last",
+        "lower": 0.4375,
+        "upper": 0.6875,
+        "width": 0.25
+      },
+      {
+        "epsilon": 0.2,
+        "functional": "rmst",
+        "lower": 2.1875,
+        "upper": 2.6875,
+        "width": 0.5
+      }
+    ],
+    "pairwise_lp": [
+      {
+        "epsilon": 0.0,
+        "width": -0.0
+      },
+      {
+        "epsilon": 0.05,
+        "width": 0.08771929824561407
+      },
+      {
+        "epsilon": 0.2,
+        "width": 0.416666666666667
+      }
+    ]
+  },
+  "restricted_monotone_hazard_grid": [
+    {
+      "epsilon": 0.0,
+      "grid_step": 0.05,
+      "candidate_count": 643,
+      "max_fixed_R_width": 2.220446049250313e-16
+    },
+    {
+      "epsilon": 0.2,
+      "grid_step": 0.05,
+      "candidate_count": 643,
+      "max_fixed_R_width": 0.2500000000000002
+    }
+  ],
+  "assumptions": [
+    "independent discrete censoring law in the matrix pilot",
+    "event observed at T <= C",
+    "terminal tail state",
+    "exact Huber feasibility constraints in fixed-R LP"
+  ]
+}
