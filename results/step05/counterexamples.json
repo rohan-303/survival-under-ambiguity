@@ -1,0 +1,7 @@
+{
+  "strict_gap_found_in_structured_censoring_grid": false,
+  "step04_unweighted_sum_was_not_rmst_pointwise_width": true,
+  "interpretation": "The earlier apparent gap compared an unweighted sum of pointwise widths with an RMST width. Correct RMST survival weights eliminate that comparison error in the checked scenario.",
+  "k2_identity_closed_form_verified": true,
+  "tested_structured_cases": 48
+}
