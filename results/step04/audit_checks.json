@@ -1,0 +1,328 @@
+{
+  "scipy_version": "1.17.1",
+  "tolerance": 2e-08,
+  "one_bin_checks": [
+    {
+      "epsilon": 0.0,
+      "pi": 0.1,
+      "followup": 0.25,
+      "analytic": 0.0,
+      "lp": -0.0
+    },
+    {
+      "epsilon": 0.0,
+      "pi": 0.1,
+      "followup": 0.7,
+      "analytic": 0.0,
+      "lp": -0.0
+    },
+    {
+      "epsilon": 0.0,
+      "pi": 0.1,
+      "followup": 1.0,
+      "analytic": 0.0,
+      "lp": -0.0
+    },
+    {
+      "epsilon": 0.0,
+      "pi": 0.5,
+      "followup": 0.25,
+      "analytic": 0.0,
+      "lp": -0.0
+    },
+    {
+      "epsilon": 0.0,
+      "pi": 0.5,
+      "followup": 0.7,
+      "analytic": 0.0,
+      "lp": -0.0
+    },
+    {
+      "epsilon": 0.0,
+      "pi": 0.5,
+      "followup": 1.0,
+      "analytic": 0.0,
+      "lp": -0.0
+    },
+    {
+      "epsilon": 0.0,
+      "pi": 0.9,
+      "followup": 0.25,
+      "analytic": 0.0,
+      "lp": -0.0
+    },
+    {
+      "epsilon": 0.0,
+      "pi": 0.9,
+      "followup": 0.7,
+      "analytic": 0.0,
+      "lp": -0.0
+    },
+    {
+      "epsilon": 0.0,
+      "pi": 0.9,
+      "followup": 1.0,
+      "analytic": 0.0,
+      "lp": -0.0
+    },
+    {
+      "epsilon": 0.05,
+      "pi": 0.1,
+      "followup": 0.25,
+      "analytic": 1.0,
+      "lp": 1.0
+    },
+    {
+      "epsilon": 0.05,
+      "pi": 0.1,
+      "followup": 0.7,
+      "analytic": 0.7518796992481205,
+      "lp": 0.751879699248121
+    },
+    {
+      "epsilon": 0.05,
+      "pi": 0.1,
+      "followup": 1.0,
+      "analytic": 0.5263157894736842,
+      "lp": 0.5263157894736846
+    },
+    {
+      "epsilon": 0.05,
+      "pi": 0.5,
+      "followup": 0.25,
+      "analytic": 0.4210526315789474,
+      "lp": 0.4210526315789478
+    },
+    {
+      "epsilon": 0.05,
+      "pi": 0.5,
+      "followup": 0.7,
+      "analytic": 0.15037593984962408,
+      "lp": 0.15037593984962422
+    },
+    {
+      "epsilon": 0.05,
+      "pi": 0.5,
+      "followup": 1.0,
+      "analytic": 0.10526315789473685,
+      "lp": 0.10526315789473695
+    },
+    {
+      "epsilon": 0.05,
+      "pi": 0.9,
+      "followup": 0.25,
+      "analytic": 0.23391812865497078,
+      "lp": 0.23391812865497097
+    },
+    {
+      "epsilon": 0.05,
+      "pi": 0.9,
+      "followup": 0.7,
+      "analytic": 0.08354218880534671,
+      "lp": 0.08354218880534678
+    },
+    {
+      "epsilon": 0.05,
+      "pi": 0.9,
+      "followup": 1.0,
+      "analytic": 0.058479532163742694,
+      "lp": 0.05847953216374274
+    },
+    {
+      "epsilon": 0.2,
+      "pi": 0.1,
+      "followup": 0.25,
+      "analytic": 1.0,
+      "lp": 1.0
+    },
+    {
+      "epsilon": 0.2,
+      "pi": 0.1,
+      "followup": 0.7,
+      "analytic": 1.0,
+      "lp": 1.0
+    },
+    {
+      "epsilon": 0.2,
+      "pi": 0.1,
+      "followup": 1.0,
+      "analytic": 1.0,
+      "lp": 1.0
+    },
+    {
+      "epsilon": 0.2,
+      "pi": 0.5,
+      "followup": 0.25,
+      "analytic": 1.0,
+      "lp": 1.0
+    },
+    {
+      "epsilon": 0.2,
+      "pi": 0.5,
+      "followup": 0.7,
+      "analytic": 0.7142857142857144,
+      "lp": 0.7142857142857144
+    },
+    {
+      "epsilon": 0.2,
+      "pi": 0.5,
+      "followup": 1.0,
+      "analytic": 0.5,
+      "lp": 0.49999999999999994
+    },
+    {
+      "epsilon": 0.2,
+      "pi": 0.9,
+      "followup": 0.25,
+      "analytic": 1.0,
+      "lp": 1.0
+    },
+    {
+      "epsilon": 0.2,
+      "pi": 0.9,
+      "followup": 0.7,
+      "analytic": 0.39682539682539686,
+      "lp": 0.3968253968253967
+    },
+    {
+      "epsilon": 0.2,
+      "pi": 0.9,
+      "followup": 1.0,
+      "analytic": 0.27777777777777773,
+      "lp": 0.2777777777777777
+    },
+    {
+      "epsilon": 0.5,
+      "pi": 0.1,
+      "followup": 0.25,
+      "analytic": 1.0,
+      "lp": 1.0
+    },
+    {
+      "epsilon": 0.5,
+      "pi": 0.1,
+      "followup": 0.7,
+      "analytic": 1.0,
+      "lp": 1.0
+    },
+    {
+      "epsilon": 0.5,
+      "pi": 0.1,
+      "followup": 1.0,
+      "analytic": 1.0,
+      "lp": 1.0
+    },
+    {
+      "epsilon": 0.5,
+      "pi": 0.5,
+      "followup": 0.25,
+      "analytic": 1.0,
+      "lp": 1.0
+    },
+    {
+      "epsilon": 0.5,
+      "pi": 0.5,
+      "followup": 0.7,
+      "analytic": 1.0,
+      "lp": 1.0
+    },
+    {
+      "epsilon": 0.5,
+      "pi": 0.5,
+      "followup": 1.0,
+      "analytic": 1.0,
+      "lp": 1.0
+    },
+    {
+      "epsilon": 0.5,
+      "pi": 0.9,
+      "followup": 0.25,
+      "analytic": 1.0,
+      "lp": 1.0
+    },
+    {
+      "epsilon": 0.5,
+      "pi": 0.9,
+      "followup": 0.7,
+      "analytic": 1.0,
+      "lp": 1.0
+    },
+    {
+      "epsilon": 0.5,
+      "pi": 0.9,
+      "followup": 1.0,
+      "analytic": 1.0,
+      "lp": 1.0
+    }
+  ],
+  "multi_bin_checks": [
+    {
+      "group": 0,
+      "functional": "S(0.25)",
+      "lower": 0.6537037037037038,
+      "upper": 0.8851851851851852,
+      "width": 0.2314814814814814,
+      "status": "OPTIMAL"
+    },
+    {
+      "group": 0,
+      "functional": "S(1.0)",
+      "lower": 0.3919753086419754,
+      "upper": 0.6851851851851851,
+      "width": 0.29320987654320974,
+      "status": "OPTIMAL"
+    },
+    {
+      "group": 0,
+      "functional": "S(2.0)",
+      "lower": 0.09938271604938276,
+      "upper": 0.39259259259259255,
+      "width": 0.2932098765432098,
+      "status": "OPTIMAL"
+    },
+    {
+      "group": 0,
+      "functional": "RMST(2.5)",
+      "lower": 1.1819444444444447,
+      "upper": 1.7953703703703703,
+      "width": 0.6134259259259256,
+      "status": "OPTIMAL"
+    },
+    {
+      "group": 1,
+      "functional": "S(0.25)",
+      "lower": 0.888425925925926,
+      "upper": 0.9231481481481483,
+      "width": 0.03472222222222232,
+      "status": "OPTIMAL"
+    },
+    {
+      "group": 1,
+      "functional": "S(1.0)",
+      "lower": 0.6652777777777779,
+      "upper": 0.7462962962962963,
+      "width": 0.08101851851851849,
+      "status": "OPTIMAL"
+    },
+    {
+      "group": 1,
+      "functional": "S(2.0)",
+      "lower": 0.31898148148148164,
+      "upper": 0.44629629629629636,
+      "width": 0.12731481481481471,
+      "status": "OPTIMAL"
+    },
+    {
+      "group": 1,
+      "functional": "RMST(2.5)",
+      "lower": 1.7410879629629634,
+      "upper": 1.9118055555555558,
+      "width": 0.17071759259259234,
+      "status": "OPTIMAL"
+    }
+  ],
+  "notes": [
+    "population LP diagnostics only",
+    "no finite-sample inference"
+  ]
+}

@@ -13,6 +13,8 @@ results/*
 !results/step03/
 !results/step03/*.json
 !results/step03/*.csv
+!results/step04/
+!results/step04/*.json
 manifests/*.json
 .env
 .vscode/
