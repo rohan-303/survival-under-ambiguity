@@ -1,0 +1,250 @@
+{
+  "evidence_level": "CHECKED: deterministic algebra and finite LP examples; not a novelty proof",
+  "G_A": {
+    "formula": "min(1, epsilon/((1-epsilon)*pi*g))",
+    "critical_epsilon": "pi*g/(1+pi*g)",
+    "boundary_checks": true
+  },
+  "majority_minority": [
+    {
+      "epsilon": 0.05,
+      "pi_rare": 0.1,
+      "g_majority": 0.8,
+      "g_rare": 0.5,
+      "rare_diameter": 1.0,
+      "majority_diameter": 0.07309941520467836,
+      "rare_minus_majority": 0.9269005847953217
+    },
+    {
+      "epsilon": 0.1,
+      "pi_rare": 0.2,
+      "g_majority": 0.5,
+      "g_rare": 0.5,
+      "rare_diameter": 1.0,
+      "majority_diameter": 0.27777777777777773,
+      "rare_minus_majority": 0.7222222222222223
+    },
+    {
+      "epsilon": 0.2,
+      "pi_rare": 0.05,
+      "g_majority": 1.0,
+      "g_rare": 0.25,
+      "rare_diameter": 1.0,
+      "majority_diameter": 0.2631578947368421,
+      "rare_minus_majority": 0.736842105263158
+    }
+  ],
+  "G_B1_prevalence_intervals": [
+    {
+      "observed_prevalence": 0.1,
+      "epsilon": 0.05,
+      "clean_prevalence_lower": 0.052631578947368425,
+      "clean_prevalence_upper": 0.10526315789473685
+    },
+    {
+      "observed_prevalence": 0.1,
+      "epsilon": 0.2,
+      "clean_prevalence_lower": 0.0,
+      "clean_prevalence_upper": 0.125
+    },
+    {
+      "observed_prevalence": 0.5,
+      "epsilon": 0.1,
+      "clean_prevalence_lower": 0.4444444444444445,
+      "clean_prevalence_upper": 0.5555555555555556
+    },
+    {
+      "observed_prevalence": 0.02,
+      "epsilon": 0.1,
+      "clean_prevalence_lower": 0.0,
+      "clean_prevalence_upper": 0.022222222222222223
+    }
+  ],
+  "G_B1_threshold_examples": [
+    {
+      "epsilon": 0.01,
+      "overlap_budget": 0.010101010101010102,
+      "some_positive_pi_can_be_hidden": true,
+      "sufficient_small_pi_threshold": 0.010101010101010102
+    },
+    {
+      "epsilon": 0.05,
+      "overlap_budget": 0.052631578947368425,
+      "some_positive_pi_can_be_hidden": true,
+      "sufficient_small_pi_threshold": 0.052631578947368425
+    },
+    {
+      "epsilon": 0.2,
+      "overlap_budget": 0.25,
+      "some_positive_pi_can_be_hidden": true,
+      "sufficient_small_pi_threshold": 0.25
+    }
+  ],
+  "G_C_G_D": [
+    {
+      "epsilon": 0.1,
+      "pi": 0.05,
+      "g": 0.5,
+      "bar_epsilon_g": 0.05,
+      "G_A_global": 1.0,
+      "G_C_marginal_preserving": 0.22222222222222224,
+      "G_D_per_group_cap": 0.10526315789473685
+    },
+    {
+      "epsilon": 0.1,
+      "pi": 0.05,
+      "g": 0.5,
+      "bar_epsilon_g": 0.5,
+      "G_A_global": 1.0,
+      "G_C_marginal_preserving": 0.22222222222222224,
+      "G_D_per_group_cap": 1.0
+    },
+    {
+      "epsilon": 0.2,
+      "pi": 0.2,
+      "g": 0.25,
+      "bar_epsilon_g": 0.1,
+      "G_A_global": 1.0,
+      "G_C_marginal_preserving": 1.0,
+      "G_D_per_group_cap": 0.4444444444444445
+    }
+  ],
+  "multi_group": [
+    {
+      "epsilon": 0.02,
+      "group": 1,
+      "pi": 0.01,
+      "g": 0.5,
+      "effective_information_mass": 0.005,
+      "sharp_group_diameter": 1.0
+    },
+    {
+      "epsilon": 0.02,
+      "group": 2,
+      "pi": 0.09,
+      "g": 0.8,
+      "effective_information_mass": 0.072,
+      "sharp_group_diameter": 0.28344671201814065
+    },
+    {
+      "epsilon": 0.02,
+      "group": 3,
+      "pi": 0.3,
+      "g": 0.6,
+      "effective_information_mass": 0.18,
+      "sharp_group_diameter": 0.11337868480725626
+    },
+    {
+      "epsilon": 0.02,
+      "group": 4,
+      "pi": 0.6,
+      "g": 0.9,
+      "effective_information_mass": 0.54,
+      "sharp_group_diameter": 0.03779289493575208
+    },
+    {
+      "epsilon": 0.1,
+      "group": 1,
+      "pi": 0.01,
+      "g": 0.5,
+      "effective_information_mass": 0.005,
+      "sharp_group_diameter": 1.0
+    },
+    {
+      "epsilon": 0.1,
+      "group": 2,
+      "pi": 0.09,
+      "g": 0.8,
+      "effective_information_mass": 0.072,
+      "sharp_group_diameter": 1.0
+    },
+    {
+      "epsilon": 0.1,
+      "group": 3,
+      "pi": 0.3,
+      "g": 0.6,
+      "effective_information_mass": 0.18,
+      "sharp_group_diameter": 0.617283950617284
+    },
+    {
+      "epsilon": 0.1,
+      "group": 4,
+      "pi": 0.6,
+      "g": 0.9,
+      "effective_information_mass": 0.54,
+      "sharp_group_diameter": 0.205761316872428
+    },
+    {
+      "epsilon": 0.2,
+      "group": 1,
+      "pi": 0.01,
+      "g": 0.5,
+      "effective_information_mass": 0.005,
+      "sharp_group_diameter": 1.0
+    },
+    {
+      "epsilon": 0.2,
+      "group": 2,
+      "pi": 0.09,
+      "g": 0.8,
+      "effective_information_mass": 0.072,
+      "sharp_group_diameter": 1.0
+    },
+    {
+      "epsilon": 0.2,
+      "group": 3,
+      "pi": 0.3,
+      "g": 0.6,
+      "effective_information_mass": 0.18,
+      "sharp_group_diameter": 1.0
+    },
+    {
+      "epsilon": 0.2,
+      "group": 4,
+      "pi": 0.6,
+      "g": 0.9,
+      "effective_information_mass": 0.54,
+      "sharp_group_diameter": 0.4629629629629629
+    }
+  ],
+  "multi_bin_lp": [
+    {
+      "epsilon": 0.02,
+      "pi": 0.05,
+      "lp_width": 1.0
+    },
+    {
+      "epsilon": 0.02,
+      "pi": 0.2,
+      "lp_width": 0.40816326530612246
+    },
+    {
+      "epsilon": 0.1,
+      "pi": 0.05,
+      "lp_width": 1.0
+    },
+    {
+      "epsilon": 0.1,
+      "pi": 0.2,
+      "lp_width": 1.0
+    },
+    {
+      "epsilon": 0.2,
+      "pi": 0.05,
+      "lp_width": 1.0
+    },
+    {
+      "epsilon": 0.2,
+      "pi": 0.2,
+      "lp_width": 1.0
+    }
+  ],
+  "phase_rows": 120,
+  "models": {
+    "G_A": "trusted label, fixed clean prevalence, arbitrary global row contamination",
+    "G_B1": "whole-row Huber replacement; clean prevalence not fixed",
+    "G_B2": "label-only corruption; requires a specified flip channel; no universal formula claimed",
+    "G_C": "contamination preserves subgroup marginal exactly",
+    "G_D": "conditional group contamination eta_g <= bar_epsilon_g and pi_g*eta_g <= epsilon"
+  }
+}

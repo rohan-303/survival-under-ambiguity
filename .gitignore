@@ -10,6 +10,9 @@ results/*
 !results/.gitkeep
 !results/step02/
 !results/step02/*.json
+!results/step03/
+!results/step03/*.json
+!results/step03/*.csv
 manifests/*.json
 .env
 .vscode/
