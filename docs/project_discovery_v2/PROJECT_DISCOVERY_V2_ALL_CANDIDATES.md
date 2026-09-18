@@ -27,6 +27,12 @@ Legend: `KILL` is the sharpest known failure condition; `PUB` is the likely publ
 | 21 | Can test-time adaptation improve mean risk while increasing rare-slice risk? | evaluation principle | adaptation literature | vision/text models, public shifts, 1–2 GPUs | medium | slice risk before/after adaptation | safety warning | if standard group metrics detect it; eval |
 | 22 | Can evidence graphs detect unsupported citations missed by answer-level metrics? | method/diagnostic | RAG attribution[4][5][16][17] | open RAG, public QA, 1 GPU | medium | graph vs human faithfulness | failure taxonomy | if graph adds no value; RAG eval |
 
+## Independent delegated candidates (unverified appendix)
+
+The later independent sweep supplied eight additional falsifiable questions: contamination-resistant paired evaluation; safety robustness under paraphrase/composition; adaptive subgroup failures in conformal prediction; clean-label poisoning detection; test-time reasoning versus calibrated uncertainty; metric gaming in generative evaluation; layout-preserving multimodal safety perturbations; and causal-representation transfer under mechanism interventions. It also proposed continual plasticity recovery, recursive synthetic-data feedback, phase-transition indicators, shift-aware data valuation, compute allocation scaling laws, and selective-supervision missingness as additional frontier families.
+
+These questions expand the inventory but do not change the selection outcome. They were not independently literature-audited in this round and are not approvals.
+
 ## Candidate lifecycle
 
 Every candidate still requires a primary-literature Step 00. This inventory is not approval and does not authorize implementation.

@@ -14,11 +14,9 @@ The ten additional frontiers are documented in `docs/project_discovery_v2/PROJEC
 
 ## 4. Candidate inventory
 
-Twenty-two falsifiable questions were generated. The complete inventory is in `PROJECT_DISCOVERY_V2_ALL_CANDIDATES.md`. The candidates include reasoning consistency, confidence calibration, tool-intent/execution mismatch, memory-poison recovery, sequential editing interference, unlearning verification, safety calibration, semantic entropy, injection propagation, source conflict, citation faithfulness, retrieval freshness, multimodal modality over-trust, selective modality abstention, contamination-sensitive ranking, contamination-risk prediction, judge disagreement triage, provenance/regression prediction, human delegation, context cliffs, test-time adaptation rare-slice risk, and evidence-graph diagnostics.
+The initial inventory contained 22 falsifiable questions. An independent delegated sweep completed after the initial draft added 14 unverified question/frontier directions, including contamination-resistant evaluation, safety paraphrase robustness, adaptive conformal subgroup failures, poisoning detection, test-time reasoning calibration, metric gaming, multimodal layout perturbations, causal transfer, plasticity recovery, recursive synthetic-data feedback, phase transitions, shift-aware data valuation, compute allocation, and selective-supervision missingness. The complete initial inventory is in `PROJECT_DISCOVERY_V2_ALL_CANDIDATES.md`; the later inputs are explicitly marked unverified and did not receive independent primary-literature audits in this round.
 
-## 5. Shortlist decisions
-
-The first shortlist of ten is in `PROJECT_DISCOVERY_V2_TOP10.md`; the top five and their decisive tests are in `PROJECT_DISCOVERY_V2_TOP5.md`; complete contracts for the top three are in `PROJECT_DISCOVERY_V2_TOP3.md`.
+The shortlist of ten is in `PROJECT_DISCOVERY_V2_TOP10.md`; the top five and their decisive tests are in `PROJECT_DISCOVERY_V2_TOP5.md`; complete contracts for the top three are in `PROJECT_DISCOVERY_V2_TOP3.md`.
 
 ## 6. Literature threats
 

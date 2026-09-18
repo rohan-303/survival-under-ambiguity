@@ -30,4 +30,24 @@ This is a fresh search after the previous clinical discovery cycle closed at `NO
 19. **Safety-evaluation measurement:** can refusal/capability trade-offs be decomposed into intent recognition, action execution, and refusal calibration rather than one safety score? Direct threat: jailbreak and alignment evaluation.[18]
 20. **Evidence-graph robustness:** can contradiction-aware evidence graphs detect citation failures that answer-level faithfulness metrics miss? Direct threats: attribution and RAG evaluation.[4][5][16][17]
 
+## Independent delegated sweep received after the initial draft
+
+The independent sweep generated additional candidate frontier families that were not used to manufacture a winner:
+
+21. contamination-resistant evaluation with fresh, temporal, and canary test sets;
+22. safety-evaluation robustness under meaning-preserving paraphrase and composition;
+23. adaptive subgroup failure in conformal prediction;
+24. clean-label poisoning detectability;
+25. test-time reasoning versus calibrated uncertainty;
+26. generative-metric gaming and divergence from human/factual quality;
+27. cross-modal safety under layout-preserving perturbations;
+28. causal representation transfer under mechanism interventions;
+29. continual-learning plasticity recovery;
+30. recursive synthetic-data feedback and model ecology;
+31. phase transitions in representation learning;
+32. compute-optimal learning beyond parameter/token scaling;
+33. selective supervision under behavior-dependent missingness.
+
+These are **unverified discovery inputs**, not literature-backed novelty claims. Several overlap existing candidate families and would require a new primary-literature kill gate before promotion. Their arrival does not change the decision below.
+
 The additional frontiers are candidates for questions, not claims of novelty.

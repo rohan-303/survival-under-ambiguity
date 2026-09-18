@@ -4,6 +4,10 @@
 
 **`NO_PROJECT_SELECTED`**
 
+## Additional delegated sweep
+
+A later independent sweep added 14 unverified frontier/question directions. They broaden the inventory but were not independently literature-audited and do not alter the decision. Selecting a winner would still be premature.
+
 ## Winner status
 
 No candidate met the required combined bar of demonstrated novelty, clear load-bearing contribution, feasible evidence path, and paper sufficiency. This is a discovery outcome, not a failure to generate ideas.
