@@ -22,7 +22,7 @@ The search covered deployment feedback, counterfactual prediction, delayed-label
 
 ## 5. Current clinical-AI frontier map
 
-The map records fourteen families. The broad areas are active rather than empty: clinical-presence and workflow dependence are established; external validation and generalization guidance are mature concerns; foundation-model portability is now directly documented; missingness and label provenance are recognized methodological problems.[1][3][7]
+The map records seventeen independent families. The broad areas are active rather than empty: clinical-presence and workflow dependence are established; external validation and generalization guidance are mature concerns; foundation-model portability is now directly documented; missingness and label provenance are recognized methodological problems.[1][3][7]
 
 The most promising fresh pressure points are not another architecture or another external validation. They are: (a) the estimand and guarantee for monitoring with delayed/selectively mature labels; (b) deletion-specific clinical safety after unlearning; and (c) pre-label semantic drift monitoring in clinical NLP.
 
@@ -54,7 +54,7 @@ The additional families searched were label provenance/circular evaluation, temp
 
 ## 12. Candidate questions
 
-Fourteen falsifiable questions were generated in `docs/frontier_reset/FRESH_CANDIDATES.md`. The leading question is:
+Eighteen falsifiable questions were generated in `docs/frontier_reset/FRESH_CANDIDATES.md`. The leading question is:
 
 > Can valid deployment-time selective-risk guarantees be maintained when labels mature asynchronously, subgroup sample sizes are unequal, and label availability is policy-dependent?
 
