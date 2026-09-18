@@ -29,3 +29,7 @@ The exact latent polytope, survival-vector map, support-function formulation, an
 The new provisional identity is **Auditing Survival Data Under Adversarial Corruption: Sharp Identification and Optimal Verification Design for Censored Records**. The primary question is whether gold-standard verification of the correct recorded tuple—not latent post-censoring event time—can produce a distinct minimax identification/audit-design theory. The finite-population adversarial model is selected for the initial preflight because its impossibility boundary can be tested exactly without importing estimator-efficiency assumptions.
 
 No prior result was deleted or rewritten. The historical RMST error remains visible in the Step 05 correction.
+
+## Step 07 pivot
+
+The stratified exchangeable corruption-location model was frozen as the only transfer assumption. Exact hypergeometric confidence sets, simultaneous coverage, adversarial recorded-event certificates, one-bin survival certificates, global-cap coupling, and small exact allocation oracles were implemented and exhaustively checked. The mandatory kill test found that the one-bin survival result is exactly acceptance sampling followed by division by known `g_h`; censoring-sensitive allocation is only scalar objective rescaling. Transfer Theory, Survival-Specificity, Novelty, and Sufficiency Gates all fail. The audit-transfer research line is closed at T6.

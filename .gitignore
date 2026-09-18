@@ -19,6 +19,8 @@ results/*
 !results/step05/*.json
 !results/step06/
 !results/step06/*.json
+!results/step07/
+!results/step07/*.json
 manifests/*.json
 .env
 .vscode/
