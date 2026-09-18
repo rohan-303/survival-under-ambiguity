@@ -1,0 +1,105 @@
+{
+  "step": 8,
+  "status": "PREFLIGHT_ONLY",
+  "seed": 8,
+  "true_risk_by_group": {
+    "(0.0, 0.0)": {
+      "1": 0.9166666666666666,
+      "2": 0.85,
+      "3": 0.7666666666666667,
+      "4": 0.7166666666666667,
+      "5": 0.6166666666666667
+    },
+    "(1.0, 0.0)": {
+      "1": 0.8,
+      "2": 0.6666666666666666,
+      "3": 0.5333333333333333,
+      "4": 0.4166666666666667,
+      "5": 0.3333333333333333
+    },
+    "(0.0, 1.0)": {
+      "1": 0.9166666666666666,
+      "2": 0.8333333333333334,
+      "3": 0.6833333333333333,
+      "4": 0.5833333333333334,
+      "5": 0.5166666666666667
+    },
+    "(1.0, 1.0)": {
+      "1": 0.9,
+      "2": 0.7333333333333333,
+      "3": 0.6,
+      "4": 0.43333333333333335,
+      "5": 0.3333333333333333
+    }
+  },
+  "scenarios": {
+    "A_valid_independent_censoring_cox": {
+      "original": {
+        "n": 240,
+        "censored": 149,
+        "events": 91
+      },
+      "uniform_re_censor": {
+        "n": 240,
+        "censored": 158,
+        "events": 82
+      },
+      "cox_discrepancy": 0.0027200436379097364,
+      "naive_discrepancy": 0.006666666666666668
+    },
+    "B_valid_independent_censoring_misspecified_observed_event_learner": {
+      "original": {
+        "n": 240,
+        "censored": 149,
+        "events": 91
+      },
+      "shortcut_geometry_intervention": {
+        "n": 240,
+        "censored": 179,
+        "events": 61
+      },
+      "naive_discrepancy": 0.05250000000000001,
+      "cox_discrepancy": 0.03882552303644877
+    }
+  },
+  "equal_rate_pair": {
+    "status": "FOUND",
+    "counts_a": {
+      "n": 240,
+      "censored": 165,
+      "events": 75
+    },
+    "counts_b": {
+      "n": 240,
+      "censored": 165,
+      "events": 75
+    },
+    "shortcut_censoring_rates_a": {
+      "0.0": 0.6416666666666667,
+      "1.0": 0.7333333333333333
+    },
+    "shortcut_censoring_rates_b": {
+      "0.0": 0.5416666666666666,
+      "1.0": 0.8333333333333334
+    },
+    "cox_discrepancy": 0.02257412625077964,
+    "naive_discrepancy": 0.045833333333333344
+  },
+  "common_support_mask": {
+    "1": true,
+    "2": true,
+    "3": true,
+    "4": true,
+    "5": false
+  },
+  "administrative_cutoff_like": {
+    "status": "PILOTED_VIA_SHORTCUT_INTERVENTION",
+    "caveat": "not a real calendar-date benchmark"
+  },
+  "non_calendar_shortcut": {
+    "status": "PILOTED",
+    "caveat": "naive learner is intentionally invalid; Cox is the null-control learner"
+  },
+  "formal_p_values": "NOT_COMPUTED",
+  "interpretation": "paired discrepancies are descriptive and not calibrated tests"
+}
